@@ -32,6 +32,9 @@ section > * {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+section > *:first-child {
+
   align-items: center;
 }
 
@@ -42,13 +45,19 @@ section > * {
 .more-things {
   display: flex;
   justify-content: space-around;
+}
 
+.thing-showcase > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer > * {
   outline: 2px solid navy;
   padding: 1rem;
   text-align: center;
+  box-shadow: 12px 12px 2px 1px rgb(0 0 255 / 0.2);
 }
 
 
