@@ -3,6 +3,10 @@ html {
   margin: 0 20%;
 }
 
+body {
+  background-color: #EEEEEE;
+}
+
 h1 {
   text-transform: lowercase; 
   text-align: center;
